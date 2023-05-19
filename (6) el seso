@@ -5525,9 +5525,9 @@ The euro-sign byte is a byte equal to 128.
 An event is a thing with
 a kind [refresh, set cursor, key down, left click, left double click, right click, right double click, deactivate, activate, done], \ English
 una clase [refrescar, cursor, tecla abajo, clic izquierdo, clic izquierdo doble, clic derecho, clic derecho doble, desactivar, activar, hecho],  \ kind in Spanish
-a shift flag, una bandera mayúsculas at the shift flag,
-a ctrl flag, una bandera ctrl at the ctrl flag,
-an alt flag, una bandera alt at the alt flag,
+a shift flag, 
+a ctrl flag, 
+an alt flag, 
 a spot, 
 a key, 
 a byte.
@@ -9057,8 +9057,8 @@ A root directory, \ one up from the directory that exe is run from
 A file name w/o extension called name.
 
 The mouse has
-a key called left button, una tecla llamada botón izquierdo at the left button,
-a key called right button, una tecla llamada botón derecho at the right button.
+a key called left button, 
+a key called right button.
 
 To move the anchor left to any non-alphanumeric byte in a text:
 If the text is nil, exit.
@@ -10513,7 +10513,7 @@ Put the really really light color into the context's color.
 
 A picture is a thing with
 \ all boxes are in twits
-A box [location of cropped picture on the page], una caja at the box,
+A box [location of cropped picture on the page], 
 A uncropped box [location of entire picture on the page],
 A grayscale flag,
 A mirror flag,
@@ -12439,9 +12439,9 @@ A byte called red byte.
 A rgb pointer is a pointer to a rgb.
 
 A rider has \ fix "bump a rider" and "unbump a rider" if you change me
-an original substring, una subcadena primera at the original substring,
-a source substring, una subcadena fuente at the source substring and
-a token substring, una subcadena componente at the token substring.
+an original substring, \una subcadena primera at the original substring,
+a source substring, \una subcadena fuente at the source substring and
+a token substring.\, una subcadena componente at the token substring.
 
 The right-alligator byte is a byte equal to 62.
 
@@ -13438,8 +13438,8 @@ Shift the wyrd right 8 bits.
 Put the wyrd into the byte.
 Put the original wyrd into the other byte.
 
-A spot is a pair with an x-coord and a y-coord and a left at the x-coord and a top at the y-coord
-y una coordenada-x at the x-coord y una coordenada-y at the y-coord y una izquierda at the x-coord y una superior at the y-coord.
+A spot is a pair with an x-coord and a y-coord and a left at the x-coord and a top at the y-coord.
+\y una coordenada-x at the x-coord y una coordenada-y at the y-coord y una izquierda at the x-coord y una superior at the y-coord.
 
 A spot pointer is a pointer to a spot.
 
@@ -13903,7 +13903,7 @@ Add the ticks to the timer's total ticks.
 
 A string has a first byte pointer and a last byte pointer. 
 
-A string thing is a thing with a string y una cadena at the string.
+A string thing is a thing with a string.
 
 A string# is a number.
 
